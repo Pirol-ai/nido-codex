@@ -1,0 +1,32 @@
+{
+  "name": "nido",
+  "version": "0.1.0",
+  "description": "Let Codex create and use Pirol sandboxes — small virtual machines in the EU, CPU or with a GPU — through the nido command line on your computer. Runs as you, with your account.",
+  "author": {
+    "name": "Pirol Labs"
+  },
+  "homepage": "https://pirol.ai/docs/sandboxes",
+  "repository": "https://github.com/Pirol-ai/nido-codex",
+  "license": "MIT",
+  "keywords": ["nido", "pirol", "sandbox", "gpu", "isolation", "training"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "nido",
+    "shortDescription": "Run code in isolated sandboxes in the EU, CPU or GPU",
+    "longDescription": "nido runs code in isolated sandboxes: each one is a small virtual machine of its own, in the EU, run by Pirol. This plugin teaches Codex when and how to use them — create a sandbox, run tests, servers or training jobs in it, copy results back and clean up. Codex drives the nido command line on your computer, as you, with your account and budget. Needs nido installed and logged in once.",
+    "developerName": "Pirol Labs",
+    "category": "Coding",
+    "capabilities": ["Read", "Write"],
+    "websiteURL": "https://pirol.ai/docs/sandboxes",
+    "privacyPolicyURL": "https://pirol.ai/privacy",
+    "termsOfServiceURL": "https://pirol.ai/terms",
+    "defaultPrompt": [
+      "Run the test suite in a nido sandbox, not on my machine",
+      "Fine-tune Qwen2.5-0.5B with LoRA on an L4 GPU in a sandbox",
+      "Which nido sandboxes are still running?"
+    ],
+    "brandColor": "#7c3aed",
+    "composerIcon": "./assets/icon.svg",
+    "logo": "./assets/icon.svg"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "nido-codex",
+  "interface": {
+    "displayName": "nido"
+  },
+  "plugins": [
+    {
+      "name": "nido",
+      "source": {
+        "source": "local",
+        "path": "./plugins/nido"
+      },
+      "category": "Coding"
+    }
+  ]
+}
